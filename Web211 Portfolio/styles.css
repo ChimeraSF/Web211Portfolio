@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+/* ----------
+
+           GENERAL STYLES
+		   
+		            ---------- */
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #BECCD3;
+	margin: 0;
+	padding: 0;
+	color: #95831d;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+h3 {
+	text-align: center;
+}
+
+a:link {
+	color: #A48F20;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #797900;
+	text-decoration: none;
+}
+
+a:hover, a:active, a:focus { 
+	color: #DFDF00;
+	text-decoration: none;
+}
+
+/* ~~ this fixed width container surrounds the other divs ~~ */
+.container {
+	width: 100%;
+	height: 100%;
+	background-color: #63896F;
+	margin: 0 auto; 
+}
+
+.header {
+	background-image: url(../Images/logo.jpg);
+	background-position: center top;
+	background-color: #0B292B;
+	background-repeat: no-repeat;
+	border-bottom-style: solid;
+	border-hottom-width: 2px;
+	border-bottom-color: #95831d;
+	border-image-width: 50%;
+	width: 100%;
+}
+
+.navigation {
+	height:30px;
+	margin:auto;
+	padding: 170px 5px 0px;
+}
+
+.navigation li {
+	display: inline;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.navigation a:link {
+	padding:0px 15px;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.content {
+	padding: 10px 0;
+	background-color: #06191b;
+}
+
+.maincontent, .gallerycontent {
+	width: 45%;
+	min-height: 350px;
+	background-color: #0B292B;
+	padding: 10px;
+	margin: auto;
+	border: 3px solid #95831d;
+}
+
+#self {
+	float: left;
+	margin: 0px 10px 10px 5px;
+	border: 3px solid #95831d;
+	width: 30%;
+	height: 40%;
+}
+
+/* ----------
+
+           GALLERY/PROJECT PAGES
+		   
+		            ---------- */
+					
+.projectcontent, .zoocontent {
+	width: 60%;
+	min-height: 70%;
+	background-color: #0B292B;
+	padding: 10px;
+	margin: auto;
+	border: 3px solid #95831d;
+}
+
+.zoocontent {
+	min-height: 710px;
+}
+
+.gallerycontent {
+	width: 51.5%;
+	min-height: 40%;
+}
+
+.gallerycontent p {
+	text-align: center;
+}
+
+#gallery {
+	margin: 2%;
+}
+
+#gallery:hover {
+	transform: scale(1.1);
+}
+
+#gallery, #logo, #recreate, #threedcomp, #ad, #ecard, #comp, #retouch, #pentool, #zoo {
+	float: none;
+	border: 3px solid #95831d;
+	margin-bottom: 2%;
+}
+
+#logo {
+	margin-left: 7%;
+	width: 86%;
+	height: 77.5%;
+}
+
+#recreate, #comp {
+	margin-left: 8%;
+	width: 36%;
+	height: 80%;
+}
+
+#threedcomp {
+	margin-left: 5%;
+	width: 88%;
+	height: 50%;
+}
+
+#ecard, #ad {
+	margin-left: 2.7%;
+	width: 94%;
+	height: 30%;	
+}
+
+#retouch, #pentool {
+	margin-left: 3%;
+	width: 44%;
+	height: 40%;
+}
+
+#zoo {
+	float: left;
+	margin: 0 2%;
+	width: 40%;
+	height: 70%;
+
+}
+
+/* ~~ The footer ~~ */
+
+.footer {
+	padding: 10px 0;
+	background-color: #0B292B;
+	height: 50px;
+	border-top: solid 3px #95831d;
+}
+
+.footer p {
+	text-align: center;
+	padding: 10px;
+}
